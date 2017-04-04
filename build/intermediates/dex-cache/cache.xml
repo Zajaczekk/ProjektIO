@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_2af864669ec242c0d0df62b1ae5422fe42b5c2b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_1d34d59915d10d4cadeb7ad997c79b98bf33d4f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_5edf9fce464952686d059346a4f25b2bc8a937e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_2440e93a20419a0d3b5b442041642072f2a0899b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53b5762c57198c0b511d1cf4fd798e91dc89f4a5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7de871862d5351c984451a317e99b6ac49959447\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_8ff0b7d1af81cc78c862ac8d8914e3115da86d64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_f96dce92fb80afa5a6abd7e9801e7f2b222c2353\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_54bda11e5134d1ed90026c53607182cd5cd6f1e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_fbde8ed67665f85c44611d7542e84afa583ed438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_c4fafec0057f0d5c2327dbfd4fdc577a35ab86cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_093d03525cd082516490bc5a52707a38e6ec7d42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_d19bd4e42255f9bb39245b49fd5e198c3e3c802a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_7e07a345669055edcd0e7e8ae1670bbfd80bcb05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_9913c5326bca0f784a995e73f3e2fce66e2c4f59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_e0e6397bbbf41bee1020d8fe5552a8a3064e994a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_91782bc2e5ef3e8d46b45e67704da477e0bfcfd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_6fb37f57c40c88d9c881df6d2bd2f59c2abf14c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_066b724a8e1e1892d564c23dc1dec45633a00021\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_b7d1cc2cb318279b9249f989728c2c61c965c074\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_014d1e1b4cd9df80c72146392395a323fdc62974\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_3bdc41d0f2b50dc59ed008174fec12c6ecb2f6f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_3fa23ea485d243967998500ec9935c56594d4251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_65c4416eedb926a3e8f75240752bd5dffacfa985\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_7f31de6a22207f06980c9c722fb9d070b9e71418\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aeebc514b3266ef9b71b01838344134d5e60daf6">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_60da1207861d14885d5b56afb4d041ef2c4959ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_5f88f67abe533c1b42e1c7f7c550a729f24b409b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_7ebfc1b91b4060ede98a63418bbc41785037d0f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_dffb7cc90b1dd5c42363afef6b8f4eb5aaa25052\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_b720a103798e37301bb4c69eccbe6648e853e502\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_d3e7a46717060fe7bcc6a4b78092424422ee0b9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_1143e8bd114b83a1665ad36fd9a165d7e8389f57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_eb45907ee23ee929aa5b02ca0c4ed40bf76d366b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_a7a53ba3901fc6e21a154f8871c9fcd21be95da2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_2b6ec4581306630c93b9e0fe2555c32001221046\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_9caa636c4b1b20a8f54757fe7bdfc43a9f431674\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_52aa0a2ce37e8507847fab9054c3b8e49d25545f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_e86de6231f6c3745a0bca8674680f41699d5232d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_d0e700c46720e1a462f5eb70fca0121c16c8ac81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_8e60bca19bd56f16f39ba845a8f26fbabfeba85f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_d8daa81ee20aab8909140fca934e1c2184f85c80\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_59e73d71f7c0f90739d70766f92a24c192a868ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="048612219a386932397b05c53724b7203f8560cc">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b7cbde9039c0e655d1b921ca96353fda4d2e136e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_ea29c8d57ed7514acc9b3268dd5f455832782f6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="85092c61c1716232d4b24c423a0761286f36bd74">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_97b21d925fc7c8f5b859518b62bc0c65f1fcef1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b933ed9c8d67029d05b1de3a940b4bd55971bf00">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_a81c23ea6c836e1685452110a608d7376580637f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_f4cad31b3557e0eb19bed99e267142c71f960b2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_2646c5a53b25d4f9e45d21e85a0a3aed6c2acc22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_3b4e0c9c97026ed6d9d546dfd1770d46d2bba5de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_fdc0b4728e61ae6c59405760d6fd19315599c543\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_b65127c5b21f8fbe957e286327111827f20d046d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_c638774f5fb9c6409b4c73ca90730560eb8240f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_04d99d4d991cd267ac02149447ac41ff80dbd71e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f4c8d1f4a4b3b4db24e46b4ad5ea936e6fd54a2">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73081bf13a6338c85fd85bc2116076e1de5914d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_9f7592a62d435b3f4ccd977be5a78983cdfde98d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_799df3fd84ddcaec9cefbc2c5134f0bbdd6a3681\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf182e14f8ee099d221aa2c56bc8ff639e1764cd">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fa2f1eff9b3adfa845e586cfd08dc788447298c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_5c9d39a059e0c97d2232c92cfdb7d529b1241191\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_a8ac60c6136d6f545fd59c0f14e8c5d912532857\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt v2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_4bc98c46ce4c0408a68a4c14457dad636b617c68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4219706235599f552c045045a66114a3cd2c4be0">
+        <dex dex="C:\Users\kacpe\Desktop\Android\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8176de347cdb7c4d6c5c1fba28d373e0f7c309d4\classes.dex" />
+    </item>
+
+</items>

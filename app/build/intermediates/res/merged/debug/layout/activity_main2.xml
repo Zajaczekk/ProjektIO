@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2e3237"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnCwiczenia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ea4c88"
+            android:text="ĆWICZENIA"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_above="@+id/btnLogowanie"
+            android:layout_marginBottom="19dp"
+            android:layout_alignRight="@+id/btnLogowanie"
+            android:layout_alignEnd="@+id/btnLogowanie"
+            android:layout_alignLeft="@+id/btnLogowanie"
+            android:layout_alignStart="@+id/btnLogowanie" />
+
+        <Button
+            android:id="@+id/btnLogowanie"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ea4c88"
+            android:text="ZALOGUJ"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginBottom="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
