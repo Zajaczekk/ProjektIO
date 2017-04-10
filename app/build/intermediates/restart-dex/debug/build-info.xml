@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
-    density="xxhdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="980595454802941"
-    token="6530829887786469185"
+    timestamp="2189242431042566"
+    token="-5059418242090820144"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,14 +23,14 @@
         duration="0" />
 
     <build
-        timestamp="980380604606823"
+        timestamp="2188353161635830"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\kacpe\Desktop\Android\Projekt v2 kopia\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\kacpe\Desktop\Android\Projekt\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="980595454802941"
+        timestamp="2189242431042566"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dodaj_cwiczenie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2e3237"
+    tools:context="com.trener.activity.DodajCwiczenieActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@color/input_register_bg"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/etNazwaCwiczenia"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNazwaCwiczenia"
+        android:background="@color/input_register_bg"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/spPartia"
+        android:layout_alignLeft="@+id/etNazwaCwiczenia"
+        android:layout_alignStart="@+id/etNazwaCwiczenia"
+        android:entries="@array/tablica_partie"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:text="Nazwa: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/tVNazwaCwiczenia"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Partia: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPartia"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/spPartia"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tVNazwaCwiczenia"
+        android:layout_alignEnd="@+id/tVNazwaCwiczenia" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@color/input_register_bg"
+        android:ems="10"
+        android:id="@+id/etOpis"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tvPartia"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="Opis: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/tvOpis"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/etOpis"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Serie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOpis"
+        android:layout_alignLeft="@+id/etOpis"
+        android:layout_alignStart="@+id/etOpis"
+        android:layout_marginTop="12dp"
+        android:id="@+id/chbSerie"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:text="Miara: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMiara"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/chbSerie"
+        android:layout_alignRight="@+id/tvOpis"
+        android:layout_alignEnd="@+id/tvOpis" />
+
+    <CheckBox
+        android:text="Powtórzenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbPowtorzenia"
+        android:layout_below="@+id/chbSerie"
+        android:layout_alignLeft="@+id/chbSerie"
+        android:layout_alignStart="@+id/chbSerie"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:text="Dystans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbDystans"
+        android:textColor="@color/white"
+        android:layout_above="@+id/chbPowtorzenia"
+        android:layout_toRightOf="@+id/chbPowtorzenia"
+        android:layout_toEndOf="@+id/chbPowtorzenia"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <CheckBox
+        android:text="Cięzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbCiezar"
+        android:textColor="@color/white"
+        android:layout_below="@+id/chbDystans"
+        android:layout_alignLeft="@+id/chbDystans"
+        android:layout_alignStart="@+id/chbDystans" />
+
+    <CheckBox
+        android:text="Czas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbCzas"
+        android:textColor="@color/white"
+        android:layout_below="@+id/chbCiezar"
+        android:layout_alignLeft="@+id/chbCiezar"
+        android:layout_alignStart="@+id/chbCiezar" />
+
+    <Button
+        android:text="DODAJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:id="@+id/btnDodaj"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/chbCzas"
+        android:layout_alignEnd="@+id/chbCzas" />
+
+</RelativeLayout>

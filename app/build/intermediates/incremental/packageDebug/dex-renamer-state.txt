@@ -1,7 +1,7 @@
-#Mon Mar 27 21:23:14 CEST 2017
-base.0=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt v2 kopia\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_97b21d925fc7c8f5b859518b62bc0c65f1fcef1b
+#Mon Apr 10 20:53:48 CEST 2017
+base.0=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt v2 kopia\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_60da1207861d14885d5b56afb4d041ef2c4959ea\\classes.dex
-base.1=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt v2 kopia\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_60da1207861d14885d5b56afb4d041ef2c4959ea
-file.0=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt v2 kopia\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_97b21d925fc7c8f5b859518b62bc0c65f1fcef1b\\classes.dex
+file.1=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_73081bf13a6338c85fd85bc2116076e1de5914d9\\classes.dex
+base.1=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_73081bf13a6338c85fd85bc2116076e1de5914d9
+file.0=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1\\classes.dex

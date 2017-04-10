@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="tablica_partie">
+        <item>Barki</item>
+        <item>Biceps</item>
+        <item>Brzuch</item>
+        <item>Klatka</item>
+        <item>Nogi</item>
+        <item>Plecy</item>
+        <item>Triceps</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>

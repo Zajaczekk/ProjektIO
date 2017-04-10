@@ -48,4 +48,17 @@
             android:textSize="15dp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnCwiczenia"
+        android:layout_height="wrap_content"
+        android:background="#ea4c88"
+        android:text="ĆWICZENIA"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="345dp" />
+
 </RelativeLayout>

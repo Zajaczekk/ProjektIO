@@ -17,22 +17,6 @@
         android:id="@+id/linearLayout">
 
         <Button
-            android:id="@+id/btnCwiczenia"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ea4c88"
-            android:text="ĆWICZENIA"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="15dp"
-            android:layout_above="@+id/btnLogowanie"
-            android:layout_marginBottom="19dp"
-            android:layout_alignRight="@+id/btnLogowanie"
-            android:layout_alignEnd="@+id/btnLogowanie"
-            android:layout_alignLeft="@+id/btnLogowanie"
-            android:layout_alignStart="@+id/btnLogowanie" />
-
-        <Button
             android:id="@+id/btnLogowanie"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

@@ -10,13 +10,14 @@ import info.androidhive.loginandregistration.R;
 
 public class Main2Activity extends AppCompatActivity{
 
-    Button btnLogowanie;
+    Button btnLogowanie, btnCwiczenia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         btnLogowanie = (Button)findViewById(R.id.btnLogowanie);
+        btnCwiczenia = (Button)findViewById(R.id.btnCwiczenia);
 
         btnLogowanie.setOnClickListener(new View.OnClickListener() {
 
