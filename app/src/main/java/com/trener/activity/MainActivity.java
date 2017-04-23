@@ -65,7 +65,7 @@ public class MainActivity extends Activity {
 
 			public void onClick(View view) {
 				Intent i = new Intent(getApplicationContext(),
-						DodajCwiczenieActivity.class);
+						CwiczeniaActivity.class);
 				startActivity(i);
 				finish();
 			}

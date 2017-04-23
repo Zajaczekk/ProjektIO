@@ -103,6 +103,14 @@ public class RegisterActivity extends Activity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(getApplicationContext(),
+                LoginActivity.class);
+        startActivity(i);
+        finish();
+    }
+
     /**
      * Function to store user in MySQL database will post params(tag, name,
      * email, password) to register url

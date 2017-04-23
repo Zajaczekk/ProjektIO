@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
-    density="xhdpi"
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="2189242431042566"
+    timestamp="712341853191815"
     token="-5059418242090820144"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="178" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="21" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
+
+    <artifact
+        location="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="2188353161635830"
+        timestamp="711841719699299"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kacpe\Desktop\Android\Projekt\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="2189242431042566"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="712341853191815"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
 
 </instant-run>

@@ -42,8 +42,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	public void onCreate(SQLiteDatabase db) {
 		String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_USER + "("
 				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
-				+ KEY_EMAIL + " TEXT UNIQUE," + " TEXT,"
-				+ " TEXT" + ")";
+				+ KEY_EMAIL + " TEXT UNIQUE" + ")";
 		db.execSQL(CREATE_LOGIN_TABLE);
 
 		Log.d(TAG, "Database tables created");
@@ -74,6 +73,12 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		db.close(); // Closing database connection
 
 		Log.d(TAG, "New user inserted into sqlite: " + id);
+	}
+
+	public void dodajCwiczenie(String nazwa_c, String informacja){
+		SQLiteDatabase db = this.getWritableDatabase();
+
+		ContentValues values = new ContentValues();
 	}
 
 	public void getID(){

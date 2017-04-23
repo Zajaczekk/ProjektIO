@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml
@@ -57,7 +57,7 @@ ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:15:30-85
 application
-ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:17:5-47:19
+ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:17:5-48:19
 MERGED from [com.android.support:design:25.2.0] C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\AndroidManifest.xml:22:5-20
@@ -79,7 +79,7 @@ MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\kacpe\Desktop\Andro
 	android:name
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:18:9-52
 activity#com.trener.activity.LoginActivity
-ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:22:9-26:64
+ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:22:9-26:55
 	android:label
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:24:13-45
 	android:launchMode
@@ -125,6 +125,10 @@ ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.trener.activity.DodajCwiczenieActivity
-ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:46:9-88
+ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:46:9-79
 	android:name
 		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:46:19-76
+activity#com.trener.activity.CwiczeniaActivity
+ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:47:9-83
+	android:name
+		ADDED from C:\Users\kacpe\Desktop\Android\Projekt\app\src\main\AndroidManifest.xml:47:19-71

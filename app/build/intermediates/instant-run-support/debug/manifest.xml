@@ -45,6 +45,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.trener.activity.DodajCwiczenieActivity" />
+        <activity android:name="com.trener.activity.CwiczeniaActivity" />
     </application>
 
 </manifest>
