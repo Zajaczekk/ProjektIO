@@ -18,6 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.trener.helper.SQLiteHandler;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,10 +33,8 @@ import info.androidhive.loginandregistration.R;
 
 public class CwiczeniaActivity extends AppCompatActivity {
 
-    Button btnDodajCwiczenie;
-    ListView lvCwiczenia;
     ArrayList<Map<String,String>> listaCwiczen;
-    TextView tV;
+    SQLiteHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +45,7 @@ public class CwiczeniaActivity extends AppCompatActivity {
         final ListView lvCwiczenia = (ListView) findViewById(R.id.lvCwiczenia) ;
         listaCwiczen = new ArrayList<>();
         final List<String> zbiorCwiczen = new ArrayList<String>();
+        db = new SQLiteHandler(getApplicationContext());
 
         btnDodajCwiczenie.setOnClickListener(new View.OnClickListener() {
 
@@ -88,6 +88,7 @@ public class CwiczeniaActivity extends AppCompatActivity {
                                 cwiczenie.put("ciezar",ciezar);
 
                                 listaCwiczen.add(cwiczenie);
+                                db.dodajCwiczenie(nazwa_c,informacja);
                             }
 
                             String[] arr = new String[zbiorCwiczen.size()];

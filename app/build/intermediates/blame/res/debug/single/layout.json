@@ -112,16 +112,16 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_dodaj_cwiczenie.xml"
     },
     {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

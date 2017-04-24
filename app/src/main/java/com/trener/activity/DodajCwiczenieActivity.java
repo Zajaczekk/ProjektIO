@@ -3,20 +3,28 @@ package com.trener.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.android.volley.Request.Method;
+import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.Volley;
 import com.trener.app.AppConfig;
+import com.trener.app.AppController;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import info.androidhive.loginandregistration.R;
 
@@ -45,6 +53,8 @@ public class DodajCwiczenieActivity extends AppCompatActivity {
         btnDodaj.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
+                RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+
                 StringRequest stringRequest = new StringRequest(Method.POST, AppConfig.URL_ADD_EXERCISE,
                         new Response.Listener<String>() {
                             @Override
@@ -56,51 +66,56 @@ public class DodajCwiczenieActivity extends AppCompatActivity {
                         }, new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
+                        Toast.makeText(getApplicationContext(), "Błąd.", Toast.LENGTH_SHORT).show();
                     }
-                });
 
-                JSONObject data = new JSONObject();
-                try{
-                    data.put("nazwa_c",etNazwaCwiczenia.getText().toString());
-                    data.put("nazwa_p_fk",spPartia.getSelectedItem().toString());
-                    data.put("informacja",etOpis.getText().toString());
+                }){
+                @Override
+                protected Map<String, String> getParams() {
+                    // Posting params to register url
+                    Map<String, String> params = new HashMap<String, String>();
+                    params.put("nazwa_c", etNazwaCwiczenia.getText().toString());
+                    params.put("nazwa_p_fk", spPartia.getSelectedItem().toString());
+                    params.put("informacja", etOpis.getText().toString());
+                    params.put("id_cwiczenia_pk",String.valueOf(AppConfig.id_c));
+                    AppConfig.id_c++;
 
                     if (serie.isChecked()) {
-                        data.put("ilosc_serii", "1");
+                        params.put("ilosc_serii", "1");
                     } else {
-                        data.put("ilosc_serii", "0");
+                        params.put("ilosc_serii", "0");
                     }
 
                     if (powt.isChecked()) {
-                        data.put("ilosc_pow", "1");
+                        params.put("ilosc_pow", "1");
                     } else {
-                        data.put("ilosc_pow", "0");
+                        params.put("ilosc_pow", "0");
                     }
 
                     if (dystans.isChecked()) {
-                        data.put("dystans", "1");
+                        params.put("dystans", "1");
                     } else {
-                        data.put("dystans", "0");
+                        params.put("dystans", "0");
                     }
 
                     if (ciezar.isChecked()) {
-                        data.put("ciezar", "1");
+                        params.put("ciezar", "1");
                     } else {
-                        data.put("ciezar", "0");
+                        params.put("ciezar", "0");
                     }
 
                     if (czas.isChecked()) {
-                        data.put("czas", "1");
+                        params.put("czas", "1");
                     } else {
-                        data.put("czas", "0");
+                        params.put("czas", "0");
                     }
 
-                    data.put("id_uzytkownika_fk","1");
+                    params.put("id_uzytkownika_fk", "1");
 
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+                    return params;
+                }};
+
+                queue.add(stringRequest);
 
                 Intent i = new Intent(getApplicationContext(),
                         MainActivity.class);

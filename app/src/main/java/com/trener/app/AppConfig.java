@@ -11,5 +11,7 @@ public class AppConfig {
 	//public static String URL_REGISTER = "http://kzajaczkowski.cba.pl/register.php";
 	public static String URL_REGISTER = "http://149.202.92.150/projekt/rest/createuser.php";
 
-	public static String URL_ADD_EXERCISE = "";
+	public static String URL_ADD_EXERCISE = "http://149.202.92.150/projekt/rest/dodaniecwiczenia.php";
+
+	public static int id_c = 4;
 }

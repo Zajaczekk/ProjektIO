@@ -27,11 +27,15 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
 	// Login table name
 	private static final String TABLE_USER = "user";
+	private static final String TABLE_EXERCISE = "exercise";
 
 	// Login Table Columns names
 	private static final String KEY_ID = "id";
 	private static final String KEY_NAME = "name";
 	private static final String KEY_EMAIL = "email";
+	private static final String EXERCISE_ID= "id";
+	private static final String KEY_NAZWA = "nazwa_c";
+	private static final String KEY_INFORMACJA = "informacja";
 
 	public SQLiteHandler(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -44,6 +48,10 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
 				+ KEY_EMAIL + " TEXT UNIQUE" + ")";
 		db.execSQL(CREATE_LOGIN_TABLE);
+		String CREATE_EXERCISE_TABLE = "CREATE TABLE" + TABLE_EXERCISE + "("
+				+ EXERCISE_ID + "INTEGER PRIMARY KEY," + KEY_NAZWA + "TEXT,"
+				+ KEY_INFORMACJA + "TEXT" + ")";
+		db.execSQL(CREATE_EXERCISE_TABLE);
 
 		Log.d(TAG, "Database tables created");
 	}
@@ -79,6 +87,13 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		SQLiteDatabase db = this.getWritableDatabase();
 
 		ContentValues values = new ContentValues();
+		values.put(KEY_NAZWA, nazwa_c);
+		values.put(KEY_INFORMACJA, informacja);
+
+		long id = db.insert(TABLE_EXERCISE, null, values);
+		db.close();
+
+		Log.d(TAG, "Nowe ćwiczenie dodane: " + id);
 	}
 
 	public void getID(){
