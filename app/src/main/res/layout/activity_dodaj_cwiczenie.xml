@@ -19,7 +19,7 @@
         android:background="@color/input_register_bg"
         android:textColor="@color/white"
         android:ems="10"
-        android:id="@+id/etNazwaCwiczenia"
+        android:id="@+id/etNazwaCwiczeniaE"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -27,14 +27,14 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etNazwaCwiczenia"
+        android:layout_below="@+id/etNazwaCwiczeniaE"
         android:background="@color/input_register_bg"
         android:layout_marginTop="16dp"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:id="@+id/spPartia"
-        android:layout_alignLeft="@+id/etNazwaCwiczenia"
-        android:layout_alignStart="@+id/etNazwaCwiczenia"
+        android:id="@+id/spPartiaE"
+        android:layout_alignLeft="@+id/etNazwaCwiczeniaE"
+        android:layout_alignStart="@+id/etNazwaCwiczeniaE"
         android:entries="@array/tablica_partie"
         android:spinnerMode="dialog" />
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:id="@+id/tVNazwaCwiczenia"
+        android:id="@+id/tVNazwaCwiczeniaE"
         android:textSize="24sp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -54,15 +54,15 @@
         android:text="Partia: "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvPartia"
+        android:id="@+id/tvPartiaE"
         android:textSize="24sp"
         android:textColor="@color/white"
         android:padding="10dp"
-        android:layout_alignTop="@+id/spPartia"
+        android:layout_alignTop="@+id/spPartiaE"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/tVNazwaCwiczenia"
-        android:layout_alignEnd="@+id/tVNazwaCwiczenia" />
+        android:layout_alignRight="@+id/tVNazwaCwiczeniaE"
+        android:layout_alignEnd="@+id/tVNazwaCwiczeniaE" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -71,9 +71,9 @@
         android:padding="10dp"
         android:background="@color/input_register_bg"
         android:ems="10"
-        android:id="@+id/etOpis"
+        android:id="@+id/etOpisE"
         android:textColor="@color/white"
-        android:layout_below="@+id/tvPartia"
+        android:layout_below="@+id/tvPartiaE"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="11dp" />
@@ -84,9 +84,9 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:id="@+id/tvOpis"
+        android:id="@+id/tvOpisE"
         android:textSize="24sp"
-        android:layout_alignTop="@+id/etOpis"
+        android:layout_alignTop="@+id/etOpisE"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -94,12 +94,13 @@
         android:text="Serie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvOpis"
-        android:layout_alignLeft="@+id/etOpis"
-        android:layout_alignStart="@+id/etOpis"
+        android:layout_below="@+id/tvOpisE"
+        android:layout_alignLeft="@+id/etOpisE"
+        android:layout_alignStart="@+id/etOpisE"
         android:layout_marginTop="12dp"
-        android:id="@+id/chbSerie"
-        android:textColor="@color/white" />
+        android:id="@+id/chbSerieE"
+        android:textColor="@color/white"
+        android:checked="false" />
 
     <TextView
         android:text="Miara: "
@@ -108,29 +109,29 @@
         android:id="@+id/tvMiara"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:layout_alignTop="@+id/chbSerie"
-        android:layout_alignRight="@+id/tvOpis"
-        android:layout_alignEnd="@+id/tvOpis" />
+        android:layout_alignTop="@+id/chbSerieE"
+        android:layout_alignRight="@+id/tvOpisE"
+        android:layout_alignEnd="@+id/tvOpisE" />
 
     <CheckBox
         android:text="Powtórzenia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chbPowtorzenia"
-        android:layout_below="@+id/chbSerie"
-        android:layout_alignLeft="@+id/chbSerie"
-        android:layout_alignStart="@+id/chbSerie"
+        android:id="@+id/chbPowtorzeniaE"
+        android:layout_below="@+id/chbSerieE"
+        android:layout_alignLeft="@+id/chbSerieE"
+        android:layout_alignStart="@+id/chbSerieE"
         android:textColor="@color/white" />
 
     <CheckBox
         android:text="Dystans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chbDystans"
+        android:id="@+id/chbDystansE"
         android:textColor="@color/white"
-        android:layout_above="@+id/chbPowtorzenia"
-        android:layout_toRightOf="@+id/chbPowtorzenia"
-        android:layout_toEndOf="@+id/chbPowtorzenia"
+        android:layout_above="@+id/chbPowtorzeniaE"
+        android:layout_toRightOf="@+id/chbPowtorzeniaE"
+        android:layout_toEndOf="@+id/chbPowtorzeniaE"
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp" />
 
@@ -138,21 +139,21 @@
         android:text="Cięzar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chbCiezar"
+        android:id="@+id/chbCiezarE"
         android:textColor="@color/white"
-        android:layout_below="@+id/chbDystans"
-        android:layout_alignLeft="@+id/chbDystans"
-        android:layout_alignStart="@+id/chbDystans" />
+        android:layout_below="@+id/chbDystansE"
+        android:layout_alignLeft="@+id/chbDystansE"
+        android:layout_alignStart="@+id/chbDystansE" />
 
     <CheckBox
         android:text="Czas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/chbCzas"
+        android:id="@+id/chbCzasE"
         android:textColor="@color/white"
-        android:layout_below="@+id/chbCiezar"
-        android:layout_alignLeft="@+id/chbCiezar"
-        android:layout_alignStart="@+id/chbCiezar" />
+        android:layout_below="@+id/chbCiezarE"
+        android:layout_alignLeft="@+id/chbCiezarE"
+        android:layout_alignStart="@+id/chbCiezarE" />
 
     <Button
         android:text="DODAJ"
@@ -163,7 +164,7 @@
         android:textColor="@color/white"
         android:id="@+id/btnDodaj"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/chbCzas"
-        android:layout_alignEnd="@+id/chbCzas" />
+        android:layout_alignRight="@+id/chbCzasE"
+        android:layout_alignEnd="@+id/chbCzasE" />
 
 </RelativeLayout>

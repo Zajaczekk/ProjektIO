@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListAdapter;
@@ -33,7 +34,8 @@ import info.androidhive.loginandregistration.R;
 
 public class CwiczeniaActivity extends AppCompatActivity {
 
-    ArrayList<Map<String,String>> listaCwiczen;
+    public ArrayList<Map<String,String>> listaCwiczen;
+    public long temp;
     SQLiteHandler db;
 
     @Override
@@ -42,6 +44,7 @@ public class CwiczeniaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cwiczenia);
 
         Button btnDodajCwiczenie = (Button) findViewById(R.id.btnDodajCwiczenie);
+        Button btnZaplanujCwiczenie = (Button) findViewById(R.id.btnZaplanujCwiczenie);
         final ListView lvCwiczenia = (ListView) findViewById(R.id.lvCwiczenia) ;
         listaCwiczen = new ArrayList<>();
         final List<String> zbiorCwiczen = new ArrayList<String>();
@@ -52,6 +55,17 @@ public class CwiczeniaActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
                         DodajCwiczenieActivity.class);
+                startActivity(i);
+                finish();
+            }
+
+        });
+
+        btnZaplanujCwiczenie.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),
+                        ZaplanujCwiczenieActivity.class);
                 startActivity(i);
                 finish();
             }
@@ -115,6 +129,15 @@ public class CwiczeniaActivity extends AppCompatActivity {
         });
 
         queue.add(stringRequest);
+
+        lvCwiczenia.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(),CwiczenieOpisActivity.class);
+                intent.putExtra("value",id);
+                startActivity(intent);
+            }
+        });
 
         //ListAdapter adapter = new SimpleAdapter(getApplicationContext(), listaCwiczen,R.layout.list_item, new String[]{"nazwa_c","informacja"},new int[]{R.id.nazwaC,R.id.informacjaC});
         //lvCwiczenia.setAdapter(adapter);

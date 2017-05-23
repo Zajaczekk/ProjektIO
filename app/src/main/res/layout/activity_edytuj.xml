@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_edytuj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2e3237"
+    tools:context="com.trener.activity.EdytujActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@color/input_register_bg"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:id="@+id/etNazwaCwiczeniaE"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNazwaCwiczeniaE"
+        android:background="@color/input_register_bg"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/spPartiaE"
+        android:layout_alignLeft="@+id/etNazwaCwiczeniaE"
+        android:layout_alignStart="@+id/etNazwaCwiczeniaE"
+        android:entries="@array/tablica_partie"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:text="Nazwa: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/tVNazwaCwiczeniaE"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Partia: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPartiaE"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/spPartiaE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tVNazwaCwiczeniaE"
+        android:layout_alignEnd="@+id/tVNazwaCwiczeniaE" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@color/input_register_bg"
+        android:ems="10"
+        android:id="@+id/etOpisE"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tvPartiaE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:text="Opis: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/tvOpisE"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/etOpisE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Serie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOpisE"
+        android:layout_alignLeft="@+id/etOpisE"
+        android:layout_alignStart="@+id/etOpisE"
+        android:layout_marginTop="12dp"
+        android:id="@+id/chbSerieE"
+        android:textColor="@color/white"
+        android:checked="false" />
+
+    <TextView
+        android:text="Miara: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMiaraE"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/chbSerieE"
+        android:layout_alignRight="@+id/tvOpisE"
+        android:layout_alignEnd="@+id/tvOpisE" />
+
+    <CheckBox
+        android:text="Powtórzenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbPowtorzeniaE"
+        android:layout_below="@+id/chbSerieE"
+        android:layout_alignLeft="@+id/chbSerieE"
+        android:layout_alignStart="@+id/chbSerieE"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:text="Dystans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbDystansE"
+        android:textColor="@color/white"
+        android:layout_above="@+id/chbPowtorzeniaE"
+        android:layout_toRightOf="@+id/chbPowtorzeniaE"
+        android:layout_toEndOf="@+id/chbPowtorzeniaE"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <CheckBox
+        android:text="Cięzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbCiezarE"
+        android:textColor="@color/white"
+        android:layout_below="@+id/chbDystansE"
+        android:layout_alignLeft="@+id/chbDystansE"
+        android:layout_alignStart="@+id/chbDystansE" />
+
+    <Button
+        android:text="EDYTUJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:id="@+id/btnEdit"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/chbPowtorzeniaE"
+        android:layout_toEndOf="@+id/chbPowtorzeniaE" />
+
+</RelativeLayout>

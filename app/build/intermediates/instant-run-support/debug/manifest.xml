@@ -33,10 +33,6 @@
         <activity
             android:name="com.trener.activity.MainActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop" />
-        <activity
-            android:name="com.trener.activity.Main2Activity"
-            android:label="Trener Antoni"
             android:launchMode="singleTop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,6 +42,9 @@
         </activity>
         <activity android:name="com.trener.activity.DodajCwiczenieActivity" />
         <activity android:name="com.trener.activity.CwiczeniaActivity" />
+        <activity android:name="com.trener.activity.CwiczenieOpisActivity" />
+        <activity android:name="com.trener.activity.EdytujActivity" />
+        <activity android:name="com.trener.activity.ZaplanujCwiczenieActivity" />
     </application>
 
 </manifest>

@@ -11,6 +11,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.trener.activity.CwiczeniaActivity">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnDodajCwiczenie">
+
+        <ListView
+            android:id="@+id/lvCwiczenia"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <Button
+        android:text="ZAPLANUJ ĆWICZENIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:background="#ea4c88"
+        android:id="@+id/btnZaplanujCwiczenie"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white" />
+
     <Button
         android:id="@+id/btnDodajCwiczenie"
         android:layout_height="wrap_content"
@@ -19,18 +47,11 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="15dp"
-        android:layout_width="345dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ListView
-        android:id="@+id/lvCwiczenia"
-        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_above="@+id/btnDodajCwiczenie" />
+        android:layout_above="@+id/btnZaplanujCwiczenie"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp" />
+
 
 </RelativeLayout>

@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8ffa692d95b098d0798ac6b728a279117e1fd28b">
+        sha1="1ef3e83f82b7d7dce78ff215eeb6ec450bef6b32">
         <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1\classes.dex" />
     </item>
     <item
@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="154f5d01646708b83c621f02a7ddc85c41bf89b6">
+        sha1="3e6c1e7201df1bc6ec9f54d1525793e1f94f5234">
         <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73081bf13a6338c85fd85bc2116076e1de5914d9\classes.dex" />
     </item>
     <item

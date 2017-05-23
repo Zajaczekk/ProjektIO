@@ -3,7 +3,6 @@ package com.trener.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -18,10 +17,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
 import com.trener.app.AppConfig;
-import com.trener.app.AppController;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -40,14 +35,14 @@ public class DodajCwiczenieActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dodaj_cwiczenie);
         btnDodaj = (Button)findViewById(R.id.btnDodaj);
-        etNazwaCwiczenia = (EditText)findViewById(R.id.etNazwaCwiczenia);
-        etOpis = (EditText)findViewById(R.id.etOpis);
-        spPartia = (Spinner)findViewById(R.id.spPartia);
-        ciezar = (CheckBox) findViewById(R.id.chbCiezar);
-        czas = (CheckBox) findViewById(R.id.chbCzas);
-        dystans = (CheckBox)findViewById(R.id.chbDystans);
-        powt = (CheckBox) findViewById(R.id.chbPowtorzenia);
-        serie = (CheckBox) findViewById(R.id.chbSerie);
+        etNazwaCwiczenia = (EditText)findViewById(R.id.etNazwaCwiczeniaE);
+        etOpis = (EditText)findViewById(R.id.etOpisE);
+        spPartia = (Spinner)findViewById(R.id.spPartiaE);
+        ciezar = (CheckBox) findViewById(R.id.chbCiezarE);
+        czas = (CheckBox) findViewById(R.id.chbCzasE);
+        dystans = (CheckBox)findViewById(R.id.chbDystansE);
+        powt = (CheckBox) findViewById(R.id.chbPowtorzeniaE);
+        serie = (CheckBox) findViewById(R.id.chbSerieE);
 
 
         btnDodaj.setOnClickListener(new View.OnClickListener() {
@@ -118,7 +113,7 @@ public class DodajCwiczenieActivity extends AppCompatActivity {
                 queue.add(stringRequest);
 
                 Intent i = new Intent(getApplicationContext(),
-                        MainActivity.class);
+                        CwiczeniaActivity.class);
                 startActivity(i);
                 finish();
             }
@@ -134,6 +129,5 @@ public class DodajCwiczenieActivity extends AppCompatActivity {
         startActivity(i);
         finish();
     }
-
 
 }

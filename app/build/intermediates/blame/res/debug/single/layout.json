@@ -4,12 +4,12 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -68,16 +68,20 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cwiczenie_opis.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_cwiczenie_opis.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -90,10 +94,6 @@
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cwiczenia.xml",
@@ -112,16 +112,16 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_dodaj_cwiczenie.xml"
     },
     {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -136,8 +136,16 @@
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zaplanuj_cwiczenie.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_zaplanuj_cwiczenie.xml"
+    },
+    {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edytuj.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\activity_edytuj.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -194,6 +202,10 @@
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinnertest.xml",
+        "source": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\src\\main\\res\\layout\\spinnertest.xml"
     },
     {
         "merged": "C:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
