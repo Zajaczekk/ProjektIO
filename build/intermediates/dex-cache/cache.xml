@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\kacpe\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.2\5d4eb08a326bdbd7fbbddc769666898c9936b282\MPAndroidChart-v3.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d4eb08a326bdbd7fbbddc769666898c9936b282">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.2_9e084c7823457c842e48283731eb5c87c31b5143\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -52,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1ef3e83f82b7d7dce78ff215eeb6ec450bef6b32">
+        sha1="bcccce80e30a16066ee22b0696748b6760e67d23">
         <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1\classes.dex" />
     </item>
     <item
@@ -97,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3e6c1e7201df1bc6ec9f54d1525793e1f94f5234">
+        sha1="c2e269ee995fa0b02001138a8899ef3b29484083">
         <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73081bf13a6338c85fd85bc2116076e1de5914d9\classes.dex" />
     </item>
     <item
@@ -144,6 +153,15 @@
         revision="25.0.2"
         sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
         <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_3fa23ea485d243967998500ec9935c56594d4251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="C:\Users\kacpe\Desktop\Android\Projekt\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.2.1_d9d64ec0fcbf58ee7c480d3a0d03bcea77b4e936\classes.dex" />
     </item>
 
 </items>

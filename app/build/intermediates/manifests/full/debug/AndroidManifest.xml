@@ -44,6 +44,16 @@
         <activity android:name="com.trener.activity.CwiczenieOpisActivity" />
         <activity android:name="com.trener.activity.EdytujActivity" />
         <activity android:name="com.trener.activity.ZaplanujCwiczenieActivity" />
+        <activity android:name="com.trener.activity.CwiczeniaTreningActivity" />
+        <activity android:name="com.trener.activity.CwiczeniePlanowanieActivity" />
+        <activity android:name="com.trener.activity.TreningiActivity" />
+        <activity android:name="com.trener.activity.TreningCwiczeniaActivity" />
+        <activity android:name="com.trener.activity.TreningWyborActivity" />
+        <activity android:name="com.trener.activity.TreningWykonanieActivity" />
+        <activity android:name="com.trener.activity.TreningCwiczenieWyborActivity" />
+        <activity android:name="com.trener.activity.TreningiWykonaneActivity" />
+        <activity android:name="com.trener.activity.TreningRaportActivity" />
+        <activity android:name="com.trener.activity.TreningiWykonaneCwiczeniaActivity" />
     </application>
 
 </manifest>

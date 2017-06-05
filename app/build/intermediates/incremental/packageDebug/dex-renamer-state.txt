@@ -1,4 +1,4 @@
-#Mon May 22 21:14:07 CEST 2017
+#Mon Jun 05 16:24:32 CEST 2017
 base.0=C\:\\Users\\kacpe\\Desktop\\Android\\Projekt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_1f13be6b179c3117f6ec36f5dd0030c44ca715e1
 renamed.1=classes.dex
 renamed.0=classes2.dex

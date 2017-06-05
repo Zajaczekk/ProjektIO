@@ -5,14 +5,44 @@
     android:background="#2e3237"
     tools:context="${relativePackage}.${activityClass}" >
 
+    <Button
+        android:id="@+id/btnTreningi"
+        android:layout_height="wrap_content"
+        android:background="#ea4c88"
+        android:text="TRENINGI"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="345dp" />
+
+    <Button
+        android:id="@+id/btnCwiczenia"
+        android:layout_height="wrap_content"
+        android:background="#ea4c88"
+        android:text="ĆWICZENIA"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_width="345dp"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/btnTreningi"
+        android:layout_alignLeft="@+id/btnTreningi"
+        android:layout_alignStart="@+id/btnTreningi" />
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:layout_marginLeft="10dp"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnCwiczenia"
+        android:layout_alignStart="@+id/btnCwiczenia">
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,18 +77,5 @@
             android:textColor="@color/white"
             android:textSize="15dp" />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnCwiczenia"
-        android:layout_height="wrap_content"
-        android:background="#ea4c88"
-        android:text="ĆWICZENIA"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:layout_marginBottom="52dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_width="345dp" />
 
 </RelativeLayout>

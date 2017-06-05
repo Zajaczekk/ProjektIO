@@ -1,9 +1,13 @@
 package com.trener.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
@@ -29,9 +33,7 @@ import info.androidhive.loginandregistration.R;
 
 public class ZaplanujCwiczenieActivity extends AppCompatActivity {
 
-    Spinner treningi, cwiczenia;
-    final List<String> zbiorCwiczen = new ArrayList<String>();
-    final List<String> zbiorCwiczenn = new ArrayList<String>();
+    ListView treningi;
     public ArrayList<Map<String,String>> listaCwiczen;
 
     @Override
@@ -39,8 +41,7 @@ public class ZaplanujCwiczenieActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zaplanuj_cwiczenie);
 
-        treningi = (Spinner) findViewById(R.id.spTreningi);
-        cwiczenia = (Spinner) findViewById(R.id.spCwiczeniaT);
+        treningi = (ListView) findViewById(R.id.lvTreningi);
         listaCwiczen = new ArrayList<>();
 
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -57,7 +58,6 @@ public class ZaplanujCwiczenieActivity extends AppCompatActivity {
 
                                 String nazwa = c.getString("nazwa_treningu");
                                 String id_t = c.getString("id_treningu_pk");
-                                zbiorCwiczen.add(nazwa);
 
                                 HashMap<String,String> cwiczenie = new HashMap<>();
                                 cwiczenie.put("nazwa_treningu",nazwa);
@@ -66,14 +66,7 @@ public class ZaplanujCwiczenieActivity extends AppCompatActivity {
                                 listaCwiczen.add(cwiczenie);
                             }
 
-                            String[] arr = new String[zbiorCwiczen.size()];
-                            for (int i=0; i<zbiorCwiczen.size();i++){
-                                arr[i] = zbiorCwiczen.get(i);
-                            }
-
-                            ArrayAdapter<String> adapter =
-                                    new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, zbiorCwiczen);
-                            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                            ListAdapter adapter = new SimpleAdapter(getApplicationContext(), listaCwiczen,R.layout.item, new String[]{"nazwa_treningu"},new int[]{R.id.nazwaCw});
 
                             treningi.setAdapter(adapter);
 
@@ -90,48 +83,22 @@ public class ZaplanujCwiczenieActivity extends AppCompatActivity {
 
         queue.add(stringRequest);
 
-        RequestQueue queuee = Volley.newRequestQueue(this);
-
-        int temp = treningi.getSelectedItemPosition();
-        System.out.println(String.valueOf(temp));
-        String urll ="http://149.202.92.150/projekt/rest/treningi.php?id=" + String.valueOf(temp);
-
-        StringRequest stringRequestt = new StringRequest(Request.Method.GET, urll,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONArray cwiczenia = new JSONArray(response);
-                            for (int i=0; i<cwiczenia.length(); i++){
-                                JSONObject c = cwiczenia.getJSONObject(i);
-
-                                String nazwa = c.getString("nazwa_treningu");
-
-                                zbiorCwiczenn.add(nazwa);
-                            }
-
-                            String[] arr = new String[zbiorCwiczenn.size()];
-                            for (int i=0; i<zbiorCwiczenn.size();i++){
-                                arr[i] = zbiorCwiczenn.get(i);
-                            }
-
-                            ArrayAdapter<String> adapter =
-                                    new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, zbiorCwiczenn);
-                            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-                            treningi.setAdapter(adapter);
-
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }, new Response.ErrorListener() {
+        treningi.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getApplicationContext(), "Błąd.", Toast.LENGTH_SHORT).show();
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(),CwiczeniaTreningActivity.class);
+                long v = id+1;
+                intent.putExtra("value",v);
+                startActivity(intent);
             }
         });
+    }
 
-        queuee.add(stringRequestt);
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(getApplicationContext(),
+                CwiczeniaActivity.class);
+        startActivity(i);
+        finish();
     }
 }

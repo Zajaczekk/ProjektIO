@@ -32,7 +32,6 @@ public class CwiczenieOpisActivity extends AppCompatActivity {
     TextView nazwaCw;
     TextView txtV;
     Button btnEdytuj;
-    Button btnUsun;
     HashMap<String,String> cwiczenie = new HashMap<>();
 
     @Override
@@ -43,7 +42,6 @@ public class CwiczenieOpisActivity extends AppCompatActivity {
         nazwaCw = (TextView)findViewById(R.id.tVNazwaCw);
         txtV = (TextView)findViewById(R.id.textView3);
         btnEdytuj = (Button) findViewById(R.id.btnEdytuj);
-        btnUsun = (Button) findViewById(R.id.button2);
 
         RequestQueue queue = Volley.newRequestQueue(this);
         String url ="http://149.202.92.150/projekt/rest/cwiczenia.php?id=2";
@@ -62,6 +60,7 @@ public class CwiczenieOpisActivity extends AppCompatActivity {
                             String ilosc_pow = c.getString("ilosc_pow");
                             String dystans = c.getString("dystans");
                             String ciezar = c.getString("ciezar");
+                            String partia = c.getString("nazwa_p_fk");
 
                             cwiczenie.put("nazwa_c",nazwa_c);
                             cwiczenie.put("informacja",informacja);
@@ -71,7 +70,7 @@ public class CwiczenieOpisActivity extends AppCompatActivity {
                             cwiczenie.put("ciezar",ciezar);
 
                             nazwaCw.append(cwiczenie.get("nazwa_c"));
-                            txtV.setText(informacja);
+                            txtV.append(partia + "\n\n" + informacja);
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -97,45 +96,5 @@ public class CwiczenieOpisActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-        btnUsun.setOnClickListener(new View.OnClickListener() {
-            String urlUsun = "";
-
-            public void onClick(View view) {
-                RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
-                StringRequest stringRequest = new StringRequest(Request.Method.POST, urlUsun,
-                        new Response.Listener<String>() {
-                            @Override
-                            public void onResponse(String response) {
-
-                            }
-                        }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(getApplicationContext(), "Błąd.", Toast.LENGTH_SHORT).show();
-                    }
-
-                }){
-                    @Override
-                    protected Map<String, String> getParams() {
-                        // Posting params to register url
-                        Map<String, String> params = new HashMap<String, String>();
-                        params.put("czyUsunac", "1");
-
-                        return params;
-                    }};
-
-                queue.add(stringRequest);
-
-                Intent i = new Intent(getApplicationContext(),
-                        CwiczeniaActivity.class);
-                startActivity(i);
-                finish();
-            }
-
-        });
-
-
-        //opisCw.append("a");
     }
 }
